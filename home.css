@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('r.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+}
+
+header {
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #0ea369;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+#hello-heading {
+    color: silver; /* Silver color */
+    animation: slideIn 1s ease; /* Animation to slide in */
+}
+
+@keyframes slideIn {
+    from {
+        margin-left: -100%; /* Start position outside the screen */
+    }
+    to {
+        margin-left: 0; /* End position */
+    }
+}
+
+h2 {
+    color: lightgray; /* Light silver color */
+}
+
+.intro {
+    color: white; /* Light white color */
+    font-weight: lighter;
+}
+
+h2, h3 {
+    color: white; /* White color */
+}
+.para {
+    display: flex;
+    color: white;
+    font-size: 18px;
+ }
+.education {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.education div {
+    width: 45%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px;
+}
+
+.education div h3 {
+    color: white; /* White color */
+}
+
+.education div p {
+    color: lightgray; /* Light silver color */
+}
+

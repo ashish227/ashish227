@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3384cb; /* Light blue background */
+    color: black; /* Black text color */
+}
+
+header {
+    background-color: #111; /* Dark header background */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white; /* White text color */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    color: white; /* White text color */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: white; /* White heading color */
+}
+
+.contact-form {
+    background-color: #f0f0f0; /* Comfy white background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.contact-form h2 {
+    color: black; /* Black heading color */
+    font-weight: bold; /* Bold font weight */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-group label {
+    margin-right: 10px;
+}
+
+select {
+    width: calc(50% - 5px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2efad8; /* Light blue button color */
+    color: white; /* White text color */
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #1cb2a8; /* Darker blue button color on hover */
+}
+.footer {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-item img {
+    width: 50px; /* Adjust the size of circular images */
+    border-radius: 50%; /* Rounded border for circular shape */
+}
+
+.footer-item p {
+    margin-top: 5px;
+}
+
+
+

@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Light black background */
+    color: white; /* White text color */
+}
+
+header {
+    background-color: #111; /* Darker black header background */
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white; /* White text color */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    color: white; /* White text color */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #007bff; /* Blue heading color */
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjusted to space around */
+    margin-top: 30px;
+}
+
+.gallery-item {
+    margin: 10px;
+    flex-basis: 45%; /* Adjusted width to fit two images in a row */
+    max-width: 45%; /* Adjusted max width to fit two images in a row */
+}
+
+.gallery-item img {
+    width: 100%; /* Ensures images fill their containers */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* White shadow effect */
+}
+
